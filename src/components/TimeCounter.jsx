@@ -24,7 +24,7 @@ const StatsDashboard = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-green-400 flex items-center justify-center p-4 mt-10">
+    <div className="min-h-screen bg-green-300 flex items-center justify-center p-4 mt-10">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-4 gap-6 my-10" >
         {counts.map((item, index) => (
           <div 
@@ -33,7 +33,7 @@ const StatsDashboard = () => {
             style={{
               border: '1px solid rgba(237, 237, 237, 0.6)',
               backdropFilter: 'blur(12px)',
-              borderRadius: '35px',
+              borderRadius: '25px',
             }}
           >
             <div 
