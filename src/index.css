@@ -1,0 +1,25 @@
+/* src/styles/index.css */
+
+/* Custom class for the navbar container */
+.navbar-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Custom transition for menu links */
+.menu-link {
+  transition: background-color 0.3s ease;
+}
+
+/* Custom style for the mobile menu (if needed) */
+.mobile-menu a {
+  border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+  transition: background-color 0.3s ease;
+}
+
+.mobile-menu a:hover {
+  background-color: #f3f4f6; /* Tailwind's gray-100 */
+}
