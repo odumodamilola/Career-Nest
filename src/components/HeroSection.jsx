@@ -72,15 +72,15 @@ const HeroSection = () => {
         <div className="mt-6 space-y-4">
           <div className="flex items-center gap-3 p-4 bg-white rounded-lg shadow-md">
             <span className="text-green-500 text-xl">✔</span>
-            <p className="text-gray-700 font-medium">The world's largest selection of courses.</p>
+            <p className="text-gray-700 font-medium">Empowering the next generation through mentorship and skill development.</p>
           </div>
           <div className="flex items-center gap-3 p-4 bg-white rounded-lg shadow-md">
             <span className="text-green-500 text-xl">✔</span>
-            <p className="text-gray-700 font-medium">Find video courses on almost any topic.</p>
+            <p className="text-gray-700 font-medium">Access expert-led mentorship and career guidance in various fields.</p>
           </div>
           <div className="flex items-center gap-3 p-4 bg-white rounded-lg shadow-md">
             <span className="text-green-500 text-xl">✔</span>
-            <p className="text-gray-700 font-medium">Enjoy lifetime access to courses on app.</p>
+            <p className="text-gray-700 font-medium">Learn, grow, and connect with professionals anytime, anywhere.</p>
           </div>
         </div>
       </div>
