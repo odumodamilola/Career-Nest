@@ -4,7 +4,7 @@ import heroImg from '../assets/image.png'; // Replace with your actual image pat
 const HeroSection = () => {
   return (
     <>
-    <section className="bg-gray-50 pt-10 pb-16">
+    <section className="bg-gray-50  pb-16">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center">
         {/* Left Column - Text */}
         <div className="md:w-1/2 mb-8 md:mb-0">
@@ -56,7 +56,7 @@ const HeroSection = () => {
     <section className="relative w-full bg-gray-50 py-16 px-6 lg:px-24 flex flex-col lg:flex-row items-center gap-8">
       <div className="w-full lg:w-1/2 flex justify-center">
         <img
-          src="https://images.pexels.com/photos/30722672/pexels-photo-30722672/free-photo-of-young-woman-in-scrubs-with-hijab-smiling.jpeg?auto=compress&cs=tinysrgb&w=600" 
+          src="https://img.freepik.com/free-photo/people-working-with-ai-operated-devices_23-2151922478.jpg?uid=R155211190&ga=GA1.1.356045453.1735949942&semt=ais_hybrid" 
           alt="Tutoring Program"
           className="rounded-lg shadow-lg w-full max-w-md lg:max-w-lg"
         />

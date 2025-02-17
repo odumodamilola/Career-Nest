@@ -24,15 +24,16 @@ const StatsDashboard = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-green flex items-center justify-center p-4 my-10">
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-4 gap-6 my-10">
+    <div className="min-h-screen bg-green-300 flex items-center justify-center p-4 mt-10">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-4 gap-6 my-10" >
         {counts.map((item, index) => (
           <div 
             key={index}
             className="bg-white rounded-2xl shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1)] p-8 text-center transition-all hover:shadow-[0_15px_30px_-5px_rgba(0,0,0,0.15)]"
             style={{
               border: '1px solid rgba(237, 237, 237, 0.6)',
-              backdropFilter: 'blur(12px)'
+              backdropFilter: 'blur(12px)',
+              borderRadius: '35px',
             }}
           >
             <div 
