@@ -121,8 +121,8 @@ const CoachesCarousel = () => {
             </div>
             
             {/* Button */}
-            <button className="bg-green-500 mt-7 hover:bg-blue-600 text-white px-10 py-3 rounded-md transition duration-300 uppercase font-medium text-center w-full md:w-auto" style={{ padding: '10px 20px'}}>
-              ALL COACHES
+            <button className="bg-green-400 mt-7 hover:bg-blue-600 text-white px-10 py-3 rounded-md transition duration-300 uppercase font-medium text-center w-full md:w-auto" style={{ padding: '10px 20px'}}>
+              ALL MENTORS
             </button>
           </div>
           

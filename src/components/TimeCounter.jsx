@@ -24,7 +24,7 @@ const StatsDashboard = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-green-300 flex items-center justify-center p-4 mt-10">
+    <div className="min-h-screen bg-green-400 flex items-center justify-center p-4 mt-10">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-4 gap-6 my-10" >
         {counts.map((item, index) => (
           <div 
