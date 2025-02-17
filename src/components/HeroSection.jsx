@@ -92,13 +92,15 @@ const HeroSection = () => {
             <div className="flex flex-col md:flex-row items-center justify-between">
               {/* Text Content */}
               <div className="w-full md:w-1/2 mb-12 md:mb-0 md:pr-10">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-                  We Believe in Success
-                </h1>
-                <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  We offer free courses on how to build your own course, complete with worksheets 
-                  and real-world examples. Plus, our instructor dashboard and curriculum pages.
-                </p>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 animate-fade-in">
+                Empowering Future Leaders
+              </h1>
+              <p className="text-lg md:text-xl text-gray-600 mb-8 animate-slide-up">
+                Unlock mentorship, skill development, and career growth with expert guidance. 
+                Access structured learning paths, interactive resources, and real-world insights 
+                to shape your future.
+              </p>
+
                 <div className="flex flex-col sm:flex-row gap-4 pb-10">
                   <button className="px-8 py-3  text-white rounded-md hover:bg-blue-700 transition duration-300 shadow-md" style={{ backgroundColor: '#1b253e' }}>
                     Get Started

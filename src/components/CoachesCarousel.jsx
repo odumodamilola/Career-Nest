@@ -116,7 +116,7 @@ const CoachesCarousel = () => {
             {/* Heading */}
             <div className="mb-12">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-                Introduce Our<br />Life Coaches That<br />Change Your Life
+                Meet Our<br />Career Mentors Who<br />Change Your Life
               </h2>
             </div>
             
