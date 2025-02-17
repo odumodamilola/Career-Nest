@@ -74,7 +74,7 @@ const HeroSection = () => {
           <span className="text-green-500 text-xl bg-green-100 px-3 py-2" style={{borderRadius: '40px'}}>✔</span>
           <p className="text-gray-700 font-medium">Empowering the next generation through mentorship and skill development.</p>
         </div>
-        <div className="flex items-center gap-3 p-4 bg-white rounded-lg shadow-md">
+        <div className="flex items-center gap-3 ps-5 p-4 bg-white rounded-lg shadow-md">
           <span className="text-green-500 text-xl  bg-green-100 px-3 py-2" style={{borderRadius: '40px'}}>✔</span>
           <p className="text-gray-700 font-medium">Access expert-led mentorship and career guidance in various fields.</p>
         </div>

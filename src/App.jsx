@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import CoachesCarousel from './components/CoachesCarousel';
 import TimeCounter from './components/TimeCounter';
+import Tutorial from './components/Tutorial';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HeroSection />
       <CoachesCarousel />
       <TimeCounter />
+      <Tutorial />
       <Footer />
       {/* Add more components here as you build */}
     </div>
