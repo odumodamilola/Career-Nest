@@ -4,7 +4,7 @@ const StatsDashboard = () => {
   const [counts, setCounts] = useState([
     { current: 0, target: 350, label: "SUCCESSFUL STUDENTS" },
     { current: 0, target: 215, label: "VIDEO TUTORIALS" },
-    { current: 0, target: 150, label: "INCREDIBLE LIFE COACHES" },
+    { current: 0, target: 150, label: "INCREDIBLE MENTORS" },
     { current: 0, target: 785, label: "UNIQUE PROGRAMS" },
   ]);
 
@@ -24,8 +24,8 @@ const StatsDashboard = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-green flex items-center justify-center p-4">
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-4 gap-6">
+    <div className="min-h-screen bg-green flex items-center justify-center p-4 my-10">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-4 gap-6 my-10">
         {counts.map((item, index) => (
           <div 
             key={index}
