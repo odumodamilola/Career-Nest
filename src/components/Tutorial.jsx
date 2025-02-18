@@ -35,20 +35,27 @@ const Tutorial = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2, // Display 2 items per slide
+    slidesToShow: 2, // Default to show 2 items
     slidesToScroll: 2,
     responsive: [
       {
-        breakpoint: 768, // For medium screens (tablets)
+        breakpoint: 640, // For mobile screens (width <= 640px)
         settings: {
-          slidesToShow: 2, // Show 2 slides on medium screens and up
+          slidesToShow: 1, // Show 1 slide on mobile
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768, // For tablets and up (width <= 768px)
+        settings: {
+          slidesToShow: 2, // Show 2 slides on tablet and up
           slidesToScroll: 2,
         },
       },
       {
         breakpoint: 1024, // For large screens (desktops)
         settings: {
-          slidesToShow: 2, // Show 2 slides on large screens and up
+          slidesToShow: 2, // Show 2 slides on desktops
           slidesToScroll: 2,
         },
       },
@@ -68,7 +75,7 @@ const Tutorial = () => {
       </div>
 
       {/* Carousel */}
-      <div className="max-w-7xl mx-10">
+      <div className="max-w-7xl mx-auto">
         <Slider {...settings}>
           {cardDetails.map((card, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden mx-2"> {/* Added mx-2 for spacing between items */}
